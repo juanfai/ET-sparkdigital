@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.HomePageTest">
         <methods>
-          <include name="login"/>
+          <include name="test2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

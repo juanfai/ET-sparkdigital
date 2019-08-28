@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32318" started-at="2019-08-28T02:14:54 ART" finished-at="2019-08-28T02:15:26 ART">
+  <suite name="Default suite" duration-ms="32417" started-at="2019-08-28T10:41:55 ART" finished-at="2019-08-28T10:42:27 ART">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32318" started-at="2019-08-28T02:14:54 ART" finished-at="2019-08-28T02:15:26 ART">
+    <test name="Default test" duration-ms="32417" started-at="2019-08-28T10:41:55 ART" finished-at="2019-08-28T10:42:27 ART">
       <class name="tests.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@50b494a6]" name="setUp" is-config="true" duration-ms="10342" started-at="2019-08-28T02:14:54 ART" finished-at="2019-08-28T02:15:04 ART">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@50b494a6]" name="setUp" is-config="true" duration-ms="10517" started-at="2019-08-28T10:41:55 ART" finished-at="2019-08-28T10:42:05 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:tests.HomePageTest@50b494a6]" name="test1" duration-ms="6461" started-at="2019-08-28T02:15:04 ART" finished-at="2019-08-28T02:15:11 ART">
+        <test-method status="PASS" signature="test1()[pri:0, instance:tests.HomePageTest@50b494a6]" name="test1" duration-ms="5854" started-at="2019-08-28T10:42:05 ART" finished-at="2019-08-28T10:42:11 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@50b494a6]" name="tearDown" is-config="true" duration-ms="92" started-at="2019-08-28T02:15:11 ART" finished-at="2019-08-28T02:15:11 ART">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@50b494a6]" name="tearDown" is-config="true" duration-ms="90" started-at="2019-08-28T10:42:11 ART" finished-at="2019-08-28T10:42:11 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@50b494a6]" name="setUp" is-config="true" duration-ms="8837" started-at="2019-08-28T02:15:11 ART" finished-at="2019-08-28T02:15:20 ART">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.HomePageTest@50b494a6]" name="setUp" is-config="true" duration-ms="9365" started-at="2019-08-28T10:42:11 ART" finished-at="2019-08-28T10:42:21 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:tests.HomePageTest@50b494a6]" name="test2" duration-ms="6448" started-at="2019-08-28T02:15:20 ART" finished-at="2019-08-28T02:15:26 ART">
+        <test-method status="PASS" signature="test2()[pri:0, instance:tests.HomePageTest@50b494a6]" name="test2" duration-ms="6455" started-at="2019-08-28T10:42:21 ART" finished-at="2019-08-28T10:42:27 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@50b494a6]" name="tearDown" is-config="true" duration-ms="89" started-at="2019-08-28T02:15:26 ART" finished-at="2019-08-28T02:15:26 ART">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.HomePageTest@50b494a6]" name="tearDown" is-config="true" duration-ms="96" started-at="2019-08-28T10:42:27 ART" finished-at="2019-08-28T10:42:27 ART">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
