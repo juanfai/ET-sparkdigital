@@ -35,7 +35,7 @@ public class GoogleAuth {
         driver.findElement(loginButton).click();
 
         // Handle windows
-        String mainWindow=driver.getWindowHandle();
+        String mainWindow = driver.getWindowHandle();
         Set<String> windowsSet = driver.getWindowHandles();
         Iterator<String> windowsIterator = windowsSet.iterator();
 

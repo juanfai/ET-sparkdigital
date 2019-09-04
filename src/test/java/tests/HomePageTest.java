@@ -32,12 +32,12 @@ public class HomePageTest {
     @Test
     public void test1() {
         GoogleAuth googleAuth = new GoogleAuth(driver);
-        googleAuth.logIn("tu usuario de spark", "el password");
+        googleAuth.logIn("estimationtool", "sparkdigital");
     }
 
     @Test
     public void test2() {
         GoogleAuth googleAuth = new GoogleAuth(driver);
-        googleAuth.logIn("tu usuario de spark", "el password");
+        googleAuth.logIn("estimationtool.1", "sparkdigital");
     }
 }
