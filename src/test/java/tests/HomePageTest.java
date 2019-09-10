@@ -1,18 +1,13 @@
 package tests;
 
-import java.util.Set;
-import java.util.Iterator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import pages.GoogleAuth;
+import pages.HomePage;
 
 public class HomePageTest {
     private WebDriver driver;
@@ -22,6 +17,8 @@ public class HomePageTest {
         System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         driver = new ChromeDriver();
         driver.navigate().to("https://estimation-tool-qa.sparkdigital.rocks/");
+        GoogleAuth googleAuth = new GoogleAuth(driver);
+        googleAuth.logIn("estimationtool", "sparkdigital");
     };
 
     @AfterMethod
@@ -30,14 +27,9 @@ public class HomePageTest {
     };
 
     @Test
-    public void test1() {
-        GoogleAuth googleAuth = new GoogleAuth(driver);
-        googleAuth.logIn("estimationtool", "sparkdigital");
-    }
-
-    @Test
-    public void test2() {
-        GoogleAuth googleAuth = new GoogleAuth(driver);
-        googleAuth.logIn("estimationtool.1", "sparkdigital");
+    public void createProject() {
+        HomePage homePage = new HomePage(driver);
+        
+        homePage.addProject();
     }
 }
